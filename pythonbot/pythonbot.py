@@ -13,7 +13,7 @@ import config
 ## bot connection info
 client = commands.Bot(command_prefix="!") ## prefix for commands
 token = config.discord_api #test bot
-##token =  "NjQ0NjgyNjAzNTI5NzY0ODc0.Xc3m8A.0Tp19vSwj7GQB1kIIcKfSUcByqc" #real bot
+##token =  "your_api_key" #real bot
 
 ## database stuff. Making connection and cursor
 conn = sqlite3.connect("positions.db")
